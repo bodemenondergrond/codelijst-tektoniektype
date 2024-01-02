@@ -8,17 +8,17 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>be.vlaanderen.bodemenondergrond.data.id.graph</groupId> <!-- e.g. be.vlaanderen.bodemenondergrond.data.id.graph -->
-  <artifactId>codelijst-tektoniektypes</artifactId> <!-- e.g. codelijst-testrepo -->
-  <version>0.1.1-SNAPSHOT</version> <!-- 0.1.0-SNAPSHOT -->
+  <artifactId>codelijst-tektoniektype</artifactId> <!-- e.g. codelijst-testrepo -->
+  <version>0.1.0-SNAPSHOT</version> <!-- 0.1.0-SNAPSHOT -->
   <packaging>jar</packaging>
 
-  <name>codelijst-tektoniektypes</name> <!-- e.g. codelijst-testrepo -->
+  <name>codelijst-tektoniektype</name> <!-- e.g. codelijst-testrepo -->
 
 
   <scm>
-        <connection>scm:git:https://github.com/bodemenondergrond/codelijst-tektoniektypes.git</connection>
-        <developerConnection>scm:git:https://github.com/bodemenondergrond/codelijst-tektoniektypes.git</developerConnection>
-        <url>https://github.com/bodemenondergrond/codelijst-tektoniektypes.git</url>
+        <connection>scm:git:https://github.com/bodemenondergrond/codelijst-tektoniektype.git</connection>
+        <developerConnection>scm:git:https://github.com/bodemenondergrond/codelijst-tektoniektype.git</developerConnection>
+        <url>https://github.com/bodemenondergrond/codelijst-tektoniektype.git</url>
     <tag>HEAD</tag>
   </scm>
   <build>

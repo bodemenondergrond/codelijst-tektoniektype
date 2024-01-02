@@ -1,0 +1,247 @@
+{
+    "@graph": [
+        {
+            "@id": "ct:5",
+            "skos:topConceptOf": {
+                "@id": "cs:tektoniektype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "plooiing (crochon)"
+            },
+            "skos:inScheme": {
+                "@id": "cs:tektoniektype"
+            },
+            "dc:identifier": "5",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "cs:tektoniektype",
+            "skos:hasTopConcept": [
+                {
+                    "@id": "ct:6"
+                },
+                {
+                    "@id": "ct:3"
+                },
+                {
+                    "@id": "ct:9"
+                },
+                {
+                    "@id": "ct:4"
+                },
+                {
+                    "@id": "ct:1"
+                },
+                {
+                    "@id": "ct:2"
+                },
+                {
+                    "@id": "ct:7"
+                },
+                {
+                    "@id": "ct:8"
+                },
+                {
+                    "@id": "ct:5"
+                },
+                {
+                    "@id": "ct:0"
+                }
+            ]
+        },
+        {
+            "@id": "ct:0",
+            "skos:topConceptOf": {
+                "@id": "cs:tektoniektype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "onbepaald"
+            },
+            "skos:inScheme": {
+                "@id": "cs:tektoniektype"
+            },
+            "dc:identifier": "0",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:7",
+            "skos:topConceptOf": {
+                "@id": "cs:tektoniektype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "fijne zwarte voegen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:tektoniektype"
+            },
+            "dc:identifier": "7",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:2",
+            "skos:topConceptOf": {
+                "@id": "cs:tektoniektype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "diaklaas"
+            },
+            "skos:inScheme": {
+                "@id": "cs:tektoniektype"
+            },
+            "dc:identifier": "2",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:9",
+            "skos:topConceptOf": {
+                "@id": "cs:tektoniektype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "stylolieten"
+            },
+            "skos:inScheme": {
+                "@id": "cs:tektoniektype"
+            },
+            "dc:identifier": "9",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:4",
+            "skos:topConceptOf": {
+                "@id": "cs:tektoniektype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "diaklaasafstand"
+            },
+            "skos:inScheme": {
+                "@id": "cs:tektoniektype"
+            },
+            "dc:identifier": "4",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:6",
+            "skos:topConceptOf": {
+                "@id": "cs:tektoniektype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "splijtingsvlak"
+            },
+            "skos:inScheme": {
+                "@id": "cs:tektoniektype"
+            },
+            "dc:identifier": "6",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:3",
+            "skos:topConceptOf": {
+                "@id": "cs:tektoniektype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "breukvlak"
+            },
+            "skos:inScheme": {
+                "@id": "cs:tektoniektype"
+            },
+            "dc:identifier": "3",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:1",
+            "skos:topConceptOf": {
+                "@id": "cs:tektoniektype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "glijvlak / verschuivingsvlak"
+            },
+            "skos:inScheme": {
+                "@id": "cs:tektoniektype"
+            },
+            "dc:identifier": "1",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:8",
+            "skos:topConceptOf": {
+                "@id": "cs:tektoniektype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "calcietgevulde spleten"
+            },
+            "skos:inScheme": {
+                "@id": "cs:tektoniektype"
+            },
+            "dc:identifier": "8",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "colt:tektoniektype",
+            "skos:member": [
+                {
+                    "@id": "ct:1"
+                },
+                {
+                    "@id": "ct:4"
+                },
+                {
+                    "@id": "ct:3"
+                },
+                {
+                    "@id": "ct:8"
+                },
+                {
+                    "@id": "ct:6"
+                },
+                {
+                    "@id": "ct:0"
+                },
+                {
+                    "@id": "ct:5"
+                },
+                {
+                    "@id": "ct:9"
+                },
+                {
+                    "@id": "ct:7"
+                },
+                {
+                    "@id": "ct:2"
+                }
+            ],
+            "skos:mappingRelation": {
+                "@id": "file:///tmp/RtmpTZf6Sz/tektoniektype"
+            },
+            "skos:inScheme": {
+                "@id": "file:///tmp/RtmpTZf6Sz/cs"
+            },
+            "dc:identifier": "tektoniektype",
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Collectie van tektoniektype."
+            },
+            "@type": "skos:Collection"
+        }
+    ],
+    "@context": {
+        "cs": "https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/",
+        "ct": "https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/",
+        "dct": "http://purl.org/dc/terms/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "colt": "https://data.bodemenondergrond.vlaanderen.be/id/collection/tektoniektype/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#"
+    }
+}

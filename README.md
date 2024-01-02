@@ -1,8 +1,8 @@
-# codelijst-tektoniektypes
+# codelijst-tektoniektype
 
 ## Samenvatting
 
-De codelijst 'tektoniektypes' bevat eenduidige benamingen van ...
+De codelijst 'tektoniektype' bevat eenduidige benamingen van ...
 
 
 ## Projectinhoud

@@ -1,0 +1,938 @@
+{
+    "@graph": [
+        {
+            "@id": "omg_distribution:codelijst-tektoniektype.0.1.0.tektoniektype_csv",
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype in text/csv formaat."
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/text/csv"
+            },
+            "dcterms:issued": {
+                "@value": "2024-01-02",
+                "@type": "xsd:date"
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-tektoniektype.0.1.0.tektoniektype_csv",
+            "@type": "dcat:Distribution",
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-tektoniektype.0.1.0.tektoniektype.csv"
+            },
+            "dcterms:format": {
+                "@id": "file_type:CSV"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype, geserialiseerd in csv tabelformaat."
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-tektoniektype.0.1.0.tektoniektype_csv"
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-tektoniektype.git"
+            },
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-tektoniektype.0.1.0.tektoniektype_csv.html"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype, in text/csv formaat."
+            }
+        },
+        {
+            "@id": "omg_distribution:codelijst-tektoniektype.0.1.0.tektoniektype_rdf",
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-tektoniektype.git"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-tektoniektype.0.1.0.tektoniektype.rdf"
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-tektoniektype.0.1.0.tektoniektype_rdf",
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype, geserialiseerd in rdf/xml bestand."
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "@type": "dcat:Distribution",
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-tektoniektype.0.1.0.tektoniektype_rdf.html"
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/application/rdf+xml"
+            },
+            "dcterms:format": {
+                "@id": "file_type:RDF_XML"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype, in xml rdf-formaat."
+            },
+            "dcterms:issued": {
+                "@value": "2024-01-02",
+                "@type": "xsd:date"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-tektoniektype.0.1.0.tektoniektype_rdf"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype in xml rdf-formaat."
+            }
+        },
+        {
+            "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-tektoniektype.0.1.1",
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype in jar-formaat."
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype, Jar maven package."
+            },
+            "dcat:downloadURL": {
+                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijst-tektoniektype/0.1.1/codelijst-tektoniektype-0.1.1.jar"
+            },
+            "spdx:downloadLocation": {
+                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijst-tektoniektype/0.1.1/codelijst-tektoniektype-0.1.1.jar"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "spdx:packageFileName": "codelijst-tektoniektype-0.1.1.jar",
+            "@type": [
+                "spdx:Package",
+                "dcat:Distribution"
+            ],
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "spdx:versionInfo": "0.1.1",
+            "spdx:packageName": "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-tektoniektype",
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Package codelijst-tektoniektype"
+            },
+            "dcterms:issued": {
+                "@value": "2023-09-21",
+                "@type": "xsd:date"
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-tektoniektype.0.1.1",
+            "dcterms:format": {
+                "@id": "file_type:JAR"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-tektoniektype.0.1.1"
+            }
+        },
+        {
+            "@id": "omg_distribution:codelijst-tektoniektype.0.1.1.tektoniektype_ttl",
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype in Turtle rdf-formaat."
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-tektoniektype.0.1.1.tektoniektype_ttl",
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype, geserialiseerd in Turtle bestand."
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "@type": "dcat:Distribution",
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-tektoniektype.0.1.1.tektoniektype.ttl"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-tektoniektype.0.1.1.tektoniektype_ttl"
+            },
+            "dcterms:format": {
+                "@id": "file_type:RDF_TURTLE"
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/text/turtle"
+            },
+            "dcterms:issued": {
+                "@value": "2023-09-21",
+                "@type": "xsd:date"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype, in Turtle rdf-formaat."
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-tektoniektype.git"
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-tektoniektype.0.1.1.tektoniektype_ttl.html"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            }
+        },
+        {
+            "@id": "omg_dataset:codelijst-tektoniektype.0.1.0",
+            "dcat:distribution": [
+                {
+                    "@id": "omg_distribution:codelijst-tektoniektype.0.1.0.tektoniektype_rdf"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-tektoniektype.0.1.0.tektoniektype_csv"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-tektoniektype.0.1.0.tektoniektype_jsonld"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-tektoniektype.0.1.0.tektoniektype_xsd"
+                },
+                {
+                    "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-tektoniektype.0.1.0"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-tektoniektype.0.1.0.tektoniektype_ttl"
+                }
+            ],
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.dataset.codelijst-tektoniektype.0.1.0",
+            "@type": "dcat:Dataset",
+            "dcat:theme": [
+                {
+                    "@id": "datatheme_be:ENVI"
+                },
+                {
+                    "@id": "eurovoc:2407"
+                },
+                {
+                    "@id": "gemet:10087"
+                },
+                {
+                    "@id": "datatheme_eu:ENVI"
+                }
+            ],
+            "dcterms:temporal": {
+                "@id": "omg_id:periodoftime/dataset_omg"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_dataset:codelijst-tektoniektype.0.1.0"
+            },
+            "dcterms:issued": {
+                "@value": "2024-01-02",
+                "@type": "xsd:date"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcterms:publisher": {
+                "@id": "ovo:OVO003323"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Deze dataset bevat een lijst van testconcepten, die gebruikt worden binnen het beleidsdomein bodemenondergrond van de Vlaamse Overheid."
+            },
+            "dcat:landingPage": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html"
+            },
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/dataset/codelijst-tektoniektype.0.1.0.html"
+            },
+            "dcterms:accrualPeriodicity": {
+                "@id": "frequency:IRREG"
+            },
+            "dcterms:spatial": [
+                {
+                    "@id": "country:BEL"
+                },
+                {
+                    "@id": "https://www.geonames.org/3337388/flanders"
+                }
+            ],
+            "dc:language": {
+                "@language": "nl",
+                "@value": "nl"
+            },
+            "dcterms:language": {
+                "@id": "language:NLD"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype (0.1.0)"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype"
+            },
+            "dcat:contactPoint": {
+                "@id": "omg_id:vcard/helpdesk"
+            },
+            "dcterms:isVersionOf": {
+                "@id": "omg_dataset:codelijst-tektoniektype"
+            },
+            "dcterms:alternative": {
+                "@language": "nl",
+                "@value": "Dataset codelijst tektoniektype"
+            },
+            "owl:versionInfo": "0.1.0",
+            "void:rootResource": {
+                "@id": "omg_conceptscheme:tektoniektype"
+            },
+            "dcterms:license": {
+                "@id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
+            }
+        },
+        {
+            "@id": "omg_distribution:codelijst-tektoniektype.0.1.0.tektoniektype_jsonld",
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype, in jsonld rdf-formaat."
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-tektoniektype.0.1.0.tektoniektype_jsonld",
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-tektoniektype.git"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype, geserialiseerd in een jsonld bestand."
+            },
+            "@type": "dcat:Distribution",
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-tektoniektype.0.1.0.tektoniektype_jsonld.html"
+            },
+            "dcterms:format": {
+                "@id": "file_type:JSON_LD"
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/application/ld+json"
+            },
+            "dcterms:issued": {
+                "@value": "2024-01-02",
+                "@type": "xsd:date"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-tektoniektype.0.1.0.tektoniektype_jsonld"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype in jsonld rdf-formaat."
+            },
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-tektoniektype.0.1.0.tektoniektype.jsonld"
+            }
+        },
+        {
+            "@id": "omg_dataset:codelijst-tektoniektype",
+            "dcat:theme": [
+                {
+                    "@id": "eurovoc:2407"
+                },
+                {
+                    "@id": "datatheme_eu:ENVI"
+                },
+                {
+                    "@id": "gemet:10087"
+                },
+                {
+                    "@id": "datatheme_be:ENVI"
+                }
+            ],
+            "dcterms:publisher": {
+                "@id": "ovo:OVO003323"
+            },
+            "dcterms:temporal": {
+                "@id": "omg_id:periodoftime/dataset_omg"
+            },
+            "dcterms:accrualPeriodicity": {
+                "@id": "frequency:IRREG"
+            },
+            "dcterms:alternative": {
+                "@language": "nl",
+                "@value": "Dataset codelijst tektoniektype"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_dataset:codelijst-tektoniektype"
+            },
+            "dcterms:spatial": [
+                {
+                    "@id": "country:BEL"
+                },
+                {
+                    "@id": "https://www.geonames.org/3337388/flanders"
+                }
+            ],
+            "dcterms:license": {
+                "@id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
+            },
+            "dcterms:hasVersion": [
+                {
+                    "@id": "omg_dataset:codelijst-tektoniektype.0.1.1"
+                },
+                {
+                    "@id": "omg_dataset:codelijst-tektoniektype.0.1.0"
+                }
+            ],
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.dataset.codelijst-tektoniektype",
+            "dcat:contactPoint": {
+                "@id": "omg_id:vcard/helpdesk"
+            },
+            "dcat:landingPage": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "void:rootResource": {
+                "@id": "omg_conceptscheme:tektoniektype"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype"
+            },
+            "dcterms:language": {
+                "@id": "language:NLD"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Deze dataset bevat een lijst van testconcepten, die gebruikt worden binnen het beleidsdomein bodemenondergrond van de Vlaamse Overheid."
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "@type": "dcat:Dataset",
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/dataset/codelijst-tektoniektype.html"
+            },
+            "dc:language": {
+                "@language": "nl",
+                "@value": "nl"
+            }
+        },
+        {
+            "@id": "omg_distribution:codelijst-tektoniektype.0.1.0.tektoniektype_xsd",
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-tektoniektype.0.1.0.tektoniektype_xsd",
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcterms:issued": {
+                "@value": "2024-01-02",
+                "@type": "xsd:date"
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/application/xml"
+            },
+            "dcterms:format": {
+                "@id": "file_type:XSD"
+            },
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-tektoniektype.0.1.0.tektoniektype_xsd.html"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype, geserialiseerd in een xsd bestand met een enumeratie."
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-tektoniektype.0.1.0.tektoniektype_xsd"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype in xml/xsd formaat."
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-tektoniektype.git"
+            },
+            "@type": "dcat:Distribution",
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-tektoniektype.0.1.0.tektoniektype.xsd"
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype, in xml xsd-formaat."
+            }
+        },
+        {
+            "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-tektoniektype.0.1.0",
+            "spdx:packageFileName": "codelijst-tektoniektype-0.1.0.jar",
+            "spdx:packageName": "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-tektoniektype",
+            "spdx:downloadLocation": {
+                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijst-tektoniektype/0.1.0/codelijst-tektoniektype-0.1.0.jar"
+            },
+            "dcterms:format": {
+                "@id": "file_type:JAR"
+            },
+            "@type": [
+                "dcat:Distribution",
+                "spdx:Package"
+            ],
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Package codelijst-tektoniektype"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijst-tektoniektype/0.1.0/codelijst-tektoniektype-0.1.0.jar"
+            },
+            "spdx:versionInfo": "0.1.0",
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-tektoniektype.0.1.0"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype, Jar maven package."
+            },
+            "dcterms:issued": {
+                "@value": "2024-01-02",
+                "@type": "xsd:date"
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-tektoniektype.0.1.0",
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype in jar-formaat."
+            }
+        },
+        {
+            "@id": "omg_distribution:codelijst-tektoniektype.0.1.0.tektoniektype_ttl",
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-tektoniektype.0.1.0.tektoniektype.ttl"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-tektoniektype.0.1.0.tektoniektype_ttl"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype in Turtle rdf-formaat."
+            },
+            "dcterms:format": {
+                "@id": "file_type:RDF_TURTLE"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype, in Turtle rdf-formaat."
+            },
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-tektoniektype.0.1.0.tektoniektype_ttl.html"
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "@type": "dcat:Distribution",
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-tektoniektype.git"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:issued": {
+                "@value": "2024-01-02",
+                "@type": "xsd:date"
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-tektoniektype.0.1.0.tektoniektype_ttl",
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype, geserialiseerd in Turtle bestand."
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/text/turtle"
+            }
+        },
+        {
+            "@id": "omg_catalog:codelijst",
+            "dcat:dataset": {
+                "@id": "omg_dataset:codelijst-tektoniektype"
+            },
+            "@type": "dcat:Catalog"
+        },
+        {
+            "@id": "omg_distribution:codelijst-tektoniektype.0.1.1.tektoniektype_xsd",
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/application/xml"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype in xml/xsd formaat."
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype, geserialiseerd in een xsd bestand met een enumeratie."
+            },
+            "dcterms:format": {
+                "@id": "file_type:XSD"
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-tektoniektype.git"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-tektoniektype.0.1.1.tektoniektype_xsd",
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-tektoniektype.0.1.1.tektoniektype_xsd"
+            },
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-tektoniektype.0.1.1.tektoniektype_xsd.html"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype, in xml xsd-formaat."
+            },
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-tektoniektype.0.1.1.tektoniektype.xsd"
+            },
+            "dcterms:issued": {
+                "@value": "2023-09-21",
+                "@type": "xsd:date"
+            },
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "omg_distribution:codelijst-tektoniektype.0.1.1.tektoniektype_jsonld",
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-tektoniektype.git"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-tektoniektype.0.1.1.tektoniektype_jsonld"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "@type": "dcat:Distribution",
+            "dcterms:issued": {
+                "@value": "2023-09-21",
+                "@type": "xsd:date"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype in jsonld rdf-formaat."
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype, in jsonld rdf-formaat."
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/application/ld+json"
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-tektoniektype.0.1.1.tektoniektype_jsonld",
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-tektoniektype.0.1.1.tektoniektype_jsonld.html"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-tektoniektype.0.1.1.tektoniektype.jsonld"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype, geserialiseerd in een jsonld bestand."
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dcterms:format": {
+                "@id": "file_type:JSON_LD"
+            }
+        },
+        {
+            "@id": "omg_distribution:codelijst-tektoniektype.0.1.1.tektoniektype_csv",
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-tektoniektype.0.1.1.tektoniektype_csv",
+            "dcterms:format": {
+                "@id": "file_type:CSV"
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-tektoniektype.0.1.1.tektoniektype_csv"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-tektoniektype.0.1.1.tektoniektype.csv"
+            },
+            "dcterms:issued": {
+                "@value": "2023-09-21",
+                "@type": "xsd:date"
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/text/csv"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype, geserialiseerd in csv tabelformaat."
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype, in text/csv formaat."
+            },
+            "@type": "dcat:Distribution",
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-tektoniektype.git"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype in text/csv formaat."
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-tektoniektype.0.1.1.tektoniektype_csv.html"
+            }
+        },
+        {
+            "@id": "omg_dataset:codelijst-tektoniektype.0.1.1",
+            "dcterms:alternative": {
+                "@language": "nl",
+                "@value": "Dataset codelijst tektoniektype"
+            },
+            "dcat:contactPoint": {
+                "@id": "omg_id:vcard/helpdesk"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype (0.1.1)"
+            },
+            "void:rootResource": {
+                "@id": "omg_conceptscheme:tektoniektype"
+            },
+            "dcterms:isVersionOf": {
+                "@id": "omg_dataset:codelijst-tektoniektype"
+            },
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/dataset/codelijst-tektoniektype.0.1.1.html"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Deze dataset bevat een lijst van testconcepten, die gebruikt worden binnen het beleidsdomein bodemenondergrond van de Vlaamse Overheid."
+            },
+            "dcterms:spatial": [
+                {
+                    "@id": "country:BEL"
+                },
+                {
+                    "@id": "https://www.geonames.org/3337388/flanders"
+                }
+            ],
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.dataset.codelijst-tektoniektype.0.1.1",
+            "@type": "dcat:Dataset",
+            "dc:language": {
+                "@language": "nl",
+                "@value": "nl"
+            },
+            "dcterms:issued": {
+                "@value": "2023-09-21",
+                "@type": "xsd:date"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:temporal": {
+                "@id": "omg_id:periodoftime/dataset_omg"
+            },
+            "dcat:theme": [
+                {
+                    "@id": "datatheme_be:ENVI"
+                },
+                {
+                    "@id": "datatheme_eu:ENVI"
+                },
+                {
+                    "@id": "eurovoc:2407"
+                },
+                {
+                    "@id": "gemet:10087"
+                }
+            ],
+            "dcat:distribution": [
+                {
+                    "@id": "omg_distribution:codelijst-tektoniektype.0.1.1.tektoniektype_jsonld"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-tektoniektype.0.1.1.tektoniektype_rdf"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-tektoniektype.0.1.1.tektoniektype_csv"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-tektoniektype.0.1.1.tektoniektype_ttl"
+                },
+                {
+                    "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-tektoniektype.0.1.1"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-tektoniektype.0.1.1.tektoniektype_xsd"
+                }
+            ],
+            "dcterms:publisher": {
+                "@id": "ovo:OVO003323"
+            },
+            "dcat:landingPage": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html"
+            },
+            "dcterms:accrualPeriodicity": {
+                "@id": "frequency:IRREG"
+            },
+            "dcterms:license": {
+                "@id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
+            },
+            "dcterms:language": {
+                "@id": "language:NLD"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype"
+            },
+            "owl:versionInfo": "0.1.1",
+            "dcterms:identifier": {
+                "@id": "omg_dataset:codelijst-tektoniektype.0.1.1"
+            }
+        },
+        {
+            "@id": "omg_distribution:codelijst-tektoniektype.0.1.1.tektoniektype_rdf",
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-tektoniektype.0.1.1.tektoniektype_rdf",
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype, in xml rdf-formaat."
+            },
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-tektoniektype.0.1.1.tektoniektype.rdf"
+            },
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-tektoniektype.0.1.1.tektoniektype_rdf.html"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "@type": "dcat:Distribution",
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype in xml rdf-formaat."
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst tektoniektype, geserialiseerd in rdf/xml bestand."
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-tektoniektype.git"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-tektoniektype.0.1.1.tektoniektype_rdf"
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/application/rdf+xml"
+            },
+            "dcterms:format": {
+                "@id": "file_type:RDF_XML"
+            },
+            "dcterms:issued": {
+                "@value": "2023-09-21",
+                "@type": "xsd:date"
+            }
+        }
+    ],
+    "@context": {
+        "country": "http://publications.europa.eu/resource/authority/country/",
+        "formats": "http://www.w3.org/ns/formats/",
+        "spdx": "http://spdx.org/rdf/terms#",
+        "omg_catalog": "https://data.omgeving.vlaanderen.be/id/catalog/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "ssd": "http://www.w3.org/ns/sparql-service-description#",
+        "omg_graphcollection": "https://data.bodemenondergrond.vlaanderen.be/id/graphcollection/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "datatheme_eu": "http://publications.europa.eu/resource/authority/data-theme/",
+        "eurovoc": "http://eurovoc.europa.eu/",
+        "language": "http://publications.europa.eu/resource/authority/language/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "omg_id": "https://data.bodemenondergrond.vlaanderen.be/id/",
+        "access_right": "http://publications.europa.eu/resource/authority/access-right/",
+        "omg_dataset": "https://data.bodemenondergrond.vlaanderen.be/id/dataset/",
+        "frequency": "http://publications.europa.eu/resource/authority/frequency/",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "omg_collection": "https://data.bodemenondergrond.vlaanderen.be/id/collection/",
+        "omg_periodoftime": "https://data.bodemenondergrond.vlaanderen.be/id/periodoftime/",
+        "file_type": "http://publications.europa.eu/resource/authority/file-type/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "assettype": "http://purl.org/adms/assettype/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "omg_dataservice": "https://data.bodemenondergrond.vlaanderen.be/id/dataservice/",
+        "void": "http://rdfs.org/ns/void#",
+        "adms": "http://www.w3.org/ns/adms#",
+        "gemet": "http://www.eionet.europa.eu/gemet/concept/",
+        "omg_named_graph": "https://data.bodemenondergrond.vlaanderen.be/id/namedgraph/",
+        "omg_vcard": "https://data.bodemenondergrond.vlaanderen.be/id/vcard/",
+        "ovo": "http://data.vlaanderen.be/id/organisatie/",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "omg_ontology": "https://data.bodemenondergrond.vlaanderen.be/id/ontology/",
+        "omg_graph": "https://data.bodemenondergrond.vlaanderen.be/id/graph/",
+        "omg_distribution": "https://data.bodemenondergrond.vlaanderen.be/id/distribution/",
+        "omg_service": "https://data.bodemenondergrond.vlaanderen.be/id/service/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "datatheme_be": "http://vocab.belgif.be/auth/datatheme/",
+        "omg_conceptscheme": "https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/",
+        "omg_package": "https://data.bodemenondergrond.vlaanderen.be/id/package/",
+        "dc": "http://purl.org/dc/elements/1.1/"
+    }
+}

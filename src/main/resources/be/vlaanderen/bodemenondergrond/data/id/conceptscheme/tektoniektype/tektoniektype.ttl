@@ -1,0 +1,78 @@
+@prefix colt: <https://data.bodemenondergrond.vlaanderen.be/id/collection/tektoniektype/> .
+@prefix cs:   <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/> .
+@prefix ct:   <https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/> .
+@prefix dc:   <http://purl.org/dc/elements/1.1/> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+ct:5    rdf:type           skos:Concept;
+        dc:identifier      "5";
+        skos:inScheme      cs:tektoniektype;
+        skos:prefLabel     "plooiing (crochon)"@nl;
+        skos:topConceptOf  cs:tektoniektype .
+
+ct:0    rdf:type           skos:Concept;
+        dc:identifier      "0";
+        skos:inScheme      cs:tektoniektype;
+        skos:prefLabel     "onbepaald"@nl;
+        skos:topConceptOf  cs:tektoniektype .
+
+ct:7    rdf:type           skos:Concept;
+        dc:identifier      "7";
+        skos:inScheme      cs:tektoniektype;
+        skos:prefLabel     "fijne zwarte voegen"@nl;
+        skos:topConceptOf  cs:tektoniektype .
+
+ct:2    rdf:type           skos:Concept;
+        dc:identifier      "2";
+        skos:inScheme      cs:tektoniektype;
+        skos:prefLabel     "diaklaas"@nl;
+        skos:topConceptOf  cs:tektoniektype .
+
+ct:9    rdf:type           skos:Concept;
+        dc:identifier      "9";
+        skos:inScheme      cs:tektoniektype;
+        skos:prefLabel     "stylolieten"@nl;
+        skos:topConceptOf  cs:tektoniektype .
+
+ct:4    rdf:type           skos:Concept;
+        dc:identifier      "4";
+        skos:inScheme      cs:tektoniektype;
+        skos:prefLabel     "diaklaasafstand"@nl;
+        skos:topConceptOf  cs:tektoniektype .
+
+cs:tektoniektype  skos:hasTopConcept  ct:6 , ct:3 , ct:9 , ct:4 , ct:1 , ct:2 , ct:7 , ct:8 , ct:5 , ct:0 .
+
+ct:6    rdf:type           skos:Concept;
+        dc:identifier      "6";
+        skos:inScheme      cs:tektoniektype;
+        skos:prefLabel     "splijtingsvlak"@nl;
+        skos:topConceptOf  cs:tektoniektype .
+
+ct:1    rdf:type           skos:Concept;
+        dc:identifier      "1";
+        skos:inScheme      cs:tektoniektype;
+        skos:prefLabel     "glijvlak / verschuivingsvlak"@nl;
+        skos:topConceptOf  cs:tektoniektype .
+
+ct:8    rdf:type           skos:Concept;
+        dc:identifier      "8";
+        skos:inScheme      cs:tektoniektype;
+        skos:prefLabel     "calcietgevulde spleten"@nl;
+        skos:topConceptOf  cs:tektoniektype .
+
+ct:3    rdf:type           skos:Concept;
+        dc:identifier      "3";
+        skos:inScheme      cs:tektoniektype;
+        skos:prefLabel     "breukvlak"@nl;
+        skos:topConceptOf  cs:tektoniektype .
+
+colt:tektoniektype  rdf:type  skos:Collection;
+        dc:identifier         "tektoniektype";
+        skos:inScheme         <file:///tmp/RtmpTZf6Sz/cs>;
+        skos:mappingRelation  <file:///tmp/RtmpTZf6Sz/tektoniektype>;
+        skos:member           ct:1 , ct:4 , ct:3 , ct:8 , ct:6 , ct:0 , ct:5 , ct:9 , ct:7 , ct:2;
+        skos:prefLabel        "Collectie van tektoniektype."@nl .

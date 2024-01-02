@@ -1,0 +1,110 @@
+<rdf:RDF
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:ct="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/"
+    xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+    xmlns:cs="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:colt="https://data.bodemenondergrond.vlaanderen.be/id/collection/tektoniektype/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/4">
+    <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/tektoniektype"/>
+    <skos:prefLabel xml:lang="nl">diaklaasafstand</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/tektoniektype"/>
+    <dc:identifier>4</dc:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/5">
+    <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/tektoniektype"/>
+    <skos:prefLabel xml:lang="nl">plooiing (crochon)</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/tektoniektype"/>
+    <dc:identifier>5</dc:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/collection/tektoniektype/tektoniektype">
+    <skos:member rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/1"/>
+    <skos:mappingRelation rdf:resource="file:///tmp/RtmpTZf6Sz/tektoniektype"/>
+    <skos:member rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/4"/>
+    <skos:member rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/3"/>
+    <skos:member rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/8"/>
+    <skos:member rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/6"/>
+    <skos:inScheme rdf:resource="file:///tmp/RtmpTZf6Sz/cs"/>
+    <dc:identifier>tektoniektype</dc:identifier>
+    <skos:member rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/0"/>
+    <skos:member rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/5"/>
+    <skos:member rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/9"/>
+    <skos:prefLabel xml:lang="nl">Collectie van tektoniektype.</skos:prefLabel>
+    <skos:member rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/7"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:member rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/6">
+    <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/tektoniektype"/>
+    <skos:prefLabel xml:lang="nl">splijtingsvlak</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/tektoniektype"/>
+    <dc:identifier>6</dc:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/7">
+    <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/tektoniektype"/>
+    <skos:prefLabel xml:lang="nl">fijne zwarte voegen</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/tektoniektype"/>
+    <dc:identifier>7</dc:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/0">
+    <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/tektoniektype"/>
+    <skos:prefLabel xml:lang="nl">onbepaald</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/tektoniektype"/>
+    <dc:identifier>0</dc:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/1">
+    <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/tektoniektype"/>
+    <skos:prefLabel xml:lang="nl">glijvlak / verschuivingsvlak</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/tektoniektype"/>
+    <dc:identifier>1</dc:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/2">
+    <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/tektoniektype"/>
+    <skos:prefLabel xml:lang="nl">diaklaas</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/tektoniektype"/>
+    <dc:identifier>2</dc:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/3">
+    <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/tektoniektype"/>
+    <skos:prefLabel xml:lang="nl">breukvlak</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/tektoniektype"/>
+    <dc:identifier>3</dc:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/8">
+    <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/tektoniektype"/>
+    <skos:prefLabel xml:lang="nl">calcietgevulde spleten</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/tektoniektype"/>
+    <dc:identifier>8</dc:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/9">
+    <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/tektoniektype"/>
+    <skos:prefLabel xml:lang="nl">stylolieten</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/tektoniektype"/>
+    <dc:identifier>9</dc:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/tektoniektype">
+    <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/6"/>
+    <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/3"/>
+    <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/9"/>
+    <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/4"/>
+    <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/1"/>
+    <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/2"/>
+    <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/7"/>
+    <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/8"/>
+    <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/5"/>
+    <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/0"/>
+  </rdf:Description>
+</rdf:RDF>
