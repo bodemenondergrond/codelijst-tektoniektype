@@ -1,0 +1,13 @@
+uri,type,dc.identifier,collections,notation,prefLabel,altLabel,broader,broaderTransitive,broadMatch,changeNote,closeMatch,definition,editorialNote,exactMatch,example,hiddenLabel,historyNote,inScheme,mappingRelation,note,related,relatedMatch,scopeNote,semanticRelation,topConceptOf
+conceptscheme:tektoniektype,,be.vlaanderen.bodemenondergrond.data.id.conceptscheme.tektoniektype,,,lijst van tektoniektypes,,,,,,,,,,,,,,,,,,,,
+collectie:tektoniektype,skos:Collection,,,,Collectie van tektoniektype.,,,,,,,,,,,,,conceptscheme:tektoniektype,,,,,,,
+3,skos:Concept,,collectie:tektoniektype,3,breukvlak,,,,,,,,,,,,,conceptscheme:tektoniektype,,,,,,,conceptscheme:tektoniektype
+8,skos:Concept,,collectie:tektoniektype,8,calcietgevulde spleten,,,,,,,,,,,,,conceptscheme:tektoniektype,,,,,,,conceptscheme:tektoniektype
+2,skos:Concept,,collectie:tektoniektype,2,diaklaas,,,,,,,,,,,,,conceptscheme:tektoniektype,,,,,,,conceptscheme:tektoniektype
+4,skos:Concept,,collectie:tektoniektype,4,diaklaasafstand,,,,,,,,,,,,,conceptscheme:tektoniektype,,,,,,,conceptscheme:tektoniektype
+7,skos:Concept,,collectie:tektoniektype,7,fijne zwarte voegen,,,,,,,,,,,,,conceptscheme:tektoniektype,,,,,,,conceptscheme:tektoniektype
+1,skos:Concept,,collectie:tektoniektype,1,glijvlak / verschuivingsvlak,,,,,,,,,,,,,conceptscheme:tektoniektype,,,,,,,conceptscheme:tektoniektype
+0,skos:Concept,,collectie:tektoniektype,0,onbepaald,,,,,,,,,,,,,conceptscheme:tektoniektype,,,,,,,conceptscheme:tektoniektype
+5,skos:Concept,,collectie:tektoniektype,5,plooiing (crochon),,,,,,,,,,,,,conceptscheme:tektoniektype,,,,,,,conceptscheme:tektoniektype
+6,skos:Concept,,collectie:tektoniektype,6,splijtingsvlak,,,,,,,,,,,,,conceptscheme:tektoniektype,,,,,,,conceptscheme:tektoniektype
+9,skos:Concept,,collectie:tektoniektype,9,stylolieten,,,,,,,,,,,,,conceptscheme:tektoniektype,,,,,,,conceptscheme:tektoniektype

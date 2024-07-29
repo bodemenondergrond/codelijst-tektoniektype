@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:simpleType name="">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:be.vlaanderen.bodemenondergrond.data.id.graph:codelijst-tektoniektype">
+  <xs:simpleType name="be.vlaanderen.bodemenondergrond.data.id.conceptscheme.tektoniektype">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/4"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/5"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/6"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/7"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/0"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/1"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/2"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/3"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/8"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/9"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/0" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/1" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/2" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/3" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/4" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/5" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/6" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/7" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/8" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/9" />
     </xs:restriction>
   </xs:simpleType>
 </xs:schema>

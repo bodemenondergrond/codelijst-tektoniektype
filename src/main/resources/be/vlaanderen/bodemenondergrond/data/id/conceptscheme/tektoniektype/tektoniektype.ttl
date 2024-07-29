@@ -1,78 +1,114 @@
-@prefix colt: <https://data.bodemenondergrond.vlaanderen.be/id/collection/tektoniektype/> .
-@prefix cs:   <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/> .
-@prefix ct:   <https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/> .
-@prefix dc:   <http://purl.org/dc/elements/1.1/> .
-@prefix dct:  <http://purl.org/dc/terms/> .
-@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
-@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix concept: <https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/>.
+@prefix collectie: <https://data.bodemenondergrond.vlaanderen.be/id/collection/tektoniektype/>.
+@prefix access_right: <http://publications.europa.eu/resource/authority/access-right/>.
+@prefix adms: <http://www.w3.org/ns/adms#>.
+@prefix assettype: <http://purl.org/adms/assettype/>.
+@prefix conceptscheme: <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/>.
+@prefix country: <http://publications.europa.eu/resource/authority/country/>.
+@prefix datasets: <https://datasets.omgeving.vlaanderen.be/>.
+@prefix datatheme_be: <http://vocab.belgif.be/auth/datatheme/>.
+@prefix datatheme_eu: <http://publications.europa.eu/resource/authority/data-theme/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix eurovoc: <http://eurovoc.europa.eu/>.
+@prefix file_type: <http://publications.europa.eu/resource/authority/file-type/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix formats: <http://www.w3.org/ns/formats/>.
+@prefix frequency: <http://publications.europa.eu/resource/authority/frequency/>.
+@prefix gemet: <http://www.eionet.europa.eu/gemet/concept/>.
+@prefix licence: <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/>.
+@prefix metadata: <https://data.omgeving.vlaanderen.be/ns/metadata#>.
+@prefix omg_catalog: <https://data.bodemenondergrond.vlaanderen.be/id/catalog/>.
+@prefix omg_catalog_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/>.
+@prefix omg_collection: <https://data.bodemenondergrond.vlaanderen.be/id/collection/>.
+@prefix omg_dataservice: <https://data.bodemenondergrond.vlaanderen.be/id/dataservice/>.
+@prefix omg_dataset_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/dataset/>.
+@prefix omg_dataset: <https://data.bodemenondergrond.vlaanderen.be/id/dataset/>.
+@prefix omg_distribution_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/distribution/>.
+@prefix omg_distribution: <https://data.bodemenondergrond.vlaanderen.be/id/distribution/>.
+@prefix omg_graphcollection: <https://data.bodemenondergrond.vlaanderen.be/id/graphcollection/>.
+@prefix omg_graph: <https://data.bodemenondergrond.vlaanderen.be/id/graph/>.
+@prefix omg_id: <https://data.bodemenondergrond.vlaanderen.be/id/>.
+@prefix omg_named_graph: <https://data.bodemenondergrond.vlaanderen.be/id/namedgraph/>.
+@prefix omg_ontology: <https://data.bodemenondergrond.vlaanderen.be/id/ontology/>.
+@prefix omg_package: <https://data.bodemenondergrond.vlaanderen.be/id/package/>.
+@prefix omg_periodoftime: <https://data.bodemenondergrond.vlaanderen.be/id/periodoftime/>.
+@prefix omg_service: <https://data.bodemenondergrond.vlaanderen.be/id/service/>.
+@prefix omg_vcard: <https://data.bodemenondergrond.vlaanderen.be/id/vcard/>.
+@prefix ovo: <http://data.vlaanderen.be/id/organisatie/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix repo: <https://repo.omgeving.vlaanderen.be/artifactory/release/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix spdx: <http://spdx.org/rdf/terms#>.
+@prefix ssd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix ts: <http://www.w3.org/ns/formats/>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix wise: <http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/>.
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-ct:5    rdf:type           skos:Concept;
-        dc:identifier      "5";
-        skos:inScheme      cs:tektoniektype;
-        skos:prefLabel     "plooiing (crochon)"@nl;
-        skos:topConceptOf  cs:tektoniektype .
-
-ct:0    rdf:type           skos:Concept;
-        dc:identifier      "0";
-        skos:inScheme      cs:tektoniektype;
-        skos:prefLabel     "onbepaald"@nl;
-        skos:topConceptOf  cs:tektoniektype .
-
-ct:7    rdf:type           skos:Concept;
-        dc:identifier      "7";
-        skos:inScheme      cs:tektoniektype;
-        skos:prefLabel     "fijne zwarte voegen"@nl;
-        skos:topConceptOf  cs:tektoniektype .
-
-ct:2    rdf:type           skos:Concept;
-        dc:identifier      "2";
-        skos:inScheme      cs:tektoniektype;
-        skos:prefLabel     "diaklaas"@nl;
-        skos:topConceptOf  cs:tektoniektype .
-
-ct:9    rdf:type           skos:Concept;
-        dc:identifier      "9";
-        skos:inScheme      cs:tektoniektype;
-        skos:prefLabel     "stylolieten"@nl;
-        skos:topConceptOf  cs:tektoniektype .
-
-ct:4    rdf:type           skos:Concept;
-        dc:identifier      "4";
-        skos:inScheme      cs:tektoniektype;
-        skos:prefLabel     "diaklaasafstand"@nl;
-        skos:topConceptOf  cs:tektoniektype .
-
-cs:tektoniektype  skos:hasTopConcept  ct:6 , ct:3 , ct:9 , ct:4 , ct:1 , ct:2 , ct:7 , ct:8 , ct:5 , ct:0 .
-
-ct:6    rdf:type           skos:Concept;
-        dc:identifier      "6";
-        skos:inScheme      cs:tektoniektype;
-        skos:prefLabel     "splijtingsvlak"@nl;
-        skos:topConceptOf  cs:tektoniektype .
-
-ct:1    rdf:type           skos:Concept;
-        dc:identifier      "1";
-        skos:inScheme      cs:tektoniektype;
-        skos:prefLabel     "glijvlak / verschuivingsvlak"@nl;
-        skos:topConceptOf  cs:tektoniektype .
-
-ct:8    rdf:type           skos:Concept;
-        dc:identifier      "8";
-        skos:inScheme      cs:tektoniektype;
-        skos:prefLabel     "calcietgevulde spleten"@nl;
-        skos:topConceptOf  cs:tektoniektype .
-
-ct:3    rdf:type           skos:Concept;
-        dc:identifier      "3";
-        skos:inScheme      cs:tektoniektype;
-        skos:prefLabel     "breukvlak"@nl;
-        skos:topConceptOf  cs:tektoniektype .
-
-colt:tektoniektype  rdf:type  skos:Collection;
-        dc:identifier         "tektoniektype";
-        skos:inScheme         <file:///tmp/RtmpTZf6Sz/cs>;
-        skos:mappingRelation  <file:///tmp/RtmpTZf6Sz/tektoniektype>;
-        skos:member           ct:1 , ct:4 , ct:3 , ct:8 , ct:6 , ct:0 , ct:5 , ct:9 , ct:7 , ct:2;
-        skos:prefLabel        "Collectie van tektoniektype."@nl .
+collectie:tektoniektype a skos:Collection;
+    skos:inScheme conceptscheme:tektoniektype;
+    skos:member <https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/0>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/1>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/2>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/3>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/4>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/5>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/6>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/7>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/8>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/9>;
+    skos:prefLabel "Collectie van tektoniektype."@nl.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/0> a skos:Concept;
+    skos:inScheme conceptscheme:tektoniektype;
+    skos:notation "0";
+    skos:prefLabel "onbepaald"@nl;
+    skos:topConceptOf conceptscheme:tektoniektype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/1> a skos:Concept;
+    skos:inScheme conceptscheme:tektoniektype;
+    skos:notation "1";
+    skos:prefLabel "glijvlak / verschuivingsvlak"@nl;
+    skos:topConceptOf conceptscheme:tektoniektype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/2> a skos:Concept;
+    skos:inScheme conceptscheme:tektoniektype;
+    skos:notation "2";
+    skos:prefLabel "diaklaas"@nl;
+    skos:topConceptOf conceptscheme:tektoniektype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/3> a skos:Concept;
+    skos:inScheme conceptscheme:tektoniektype;
+    skos:notation "3";
+    skos:prefLabel "breukvlak"@nl;
+    skos:topConceptOf conceptscheme:tektoniektype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/4> a skos:Concept;
+    skos:inScheme conceptscheme:tektoniektype;
+    skos:notation "4";
+    skos:prefLabel "diaklaasafstand"@nl;
+    skos:topConceptOf conceptscheme:tektoniektype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/5> a skos:Concept;
+    skos:inScheme conceptscheme:tektoniektype;
+    skos:notation "5";
+    skos:prefLabel "plooiing (crochon)"@nl;
+    skos:topConceptOf conceptscheme:tektoniektype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/6> a skos:Concept;
+    skos:inScheme conceptscheme:tektoniektype;
+    skos:notation "6";
+    skos:prefLabel "splijtingsvlak"@nl;
+    skos:topConceptOf conceptscheme:tektoniektype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/7> a skos:Concept;
+    skos:inScheme conceptscheme:tektoniektype;
+    skos:notation "7";
+    skos:prefLabel "fijne zwarte voegen"@nl;
+    skos:topConceptOf conceptscheme:tektoniektype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/8> a skos:Concept;
+    skos:inScheme conceptscheme:tektoniektype;
+    skos:notation "8";
+    skos:prefLabel "calcietgevulde spleten"@nl;
+    skos:topConceptOf conceptscheme:tektoniektype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/9> a skos:Concept;
+    skos:inScheme conceptscheme:tektoniektype;
+    skos:notation "9";
+    skos:prefLabel "stylolieten"@nl;
+    skos:topConceptOf conceptscheme:tektoniektype.
+conceptscheme:tektoniektype dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.tektoniektype";
+    a skos:ConceptScheme;
+    skos:hasTopConcept <https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/0>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/1>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/2>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/3>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/4>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/5>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/6>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/7>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/8>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/9>;
+    skos:prefLabel "lijst van tektoniektypes"@nl.
