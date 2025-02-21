@@ -19,3 +19,4 @@ temp
 codelijst-tektoniektype.iml
 src/.env
 src/utils/setenv.js
+node_modules/
