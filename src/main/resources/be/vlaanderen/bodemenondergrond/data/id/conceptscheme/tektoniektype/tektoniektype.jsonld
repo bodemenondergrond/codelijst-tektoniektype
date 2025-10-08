@@ -395,101 +395,102 @@
     },
     "graph": [
         {
-            "id": "collectie:tektoniektype",
-            "type": "skos:Collection",
-            "inScheme": "conceptscheme:tektoniektype",
-            "member": [
-                "concept:0",
-                "concept:1",
-                "concept:2",
-                "concept:3",
-                "concept:4",
-                "concept:5",
-                "concept:6",
-                "concept:7",
-                "concept:8",
-                "concept:9"
-            ],
-            "prefLabel": "Collectie van tektoniektype."
-        },
-        {
-            "id": "concept:0",
+            "id": "concept:br",
             "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.tektoniektype.br",
+            "definition": "Een herkenbaar doorlopend vlak in het gesteente, waar het gesteente is opgebroken.",
             "inScheme": "conceptscheme:tektoniektype",
-            "notation": "0",
-            "prefLabel": "onbepaald",
-            "topConceptOf": "conceptscheme:tektoniektype"
-        },
-        {
-            "id": "concept:1",
-            "type": "skos:Concept",
-            "inScheme": "conceptscheme:tektoniektype",
-            "notation": "1",
-            "prefLabel": "glijvlak / verschuivingsvlak",
-            "topConceptOf": "conceptscheme:tektoniektype"
-        },
-        {
-            "id": "concept:2",
-            "type": "skos:Concept",
-            "inScheme": "conceptscheme:tektoniektype",
-            "notation": "2",
-            "prefLabel": "diaklaas",
-            "topConceptOf": "conceptscheme:tektoniektype"
-        },
-        {
-            "id": "concept:3",
-            "type": "skos:Concept",
-            "inScheme": "conceptscheme:tektoniektype",
-            "notation": "3",
+            "notation": "BR",
+            "note": "Een herkenbaar doorlopend vlak in het gesteente, waar het gesteente is opgebroken.",
             "prefLabel": "breukvlak",
             "topConceptOf": "conceptscheme:tektoniektype"
         },
         {
-            "id": "concept:4",
+            "id": "concept:ca",
             "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.tektoniektype.ca",
+            "definition": "Spleten in het gesteente (van diverse oorsprong) die opgevuld zijn met calciet.",
             "inScheme": "conceptscheme:tektoniektype",
-            "notation": "4",
-            "prefLabel": "diaklaasafstand",
-            "topConceptOf": "conceptscheme:tektoniektype"
-        },
-        {
-            "id": "concept:5",
-            "type": "skos:Concept",
-            "inScheme": "conceptscheme:tektoniektype",
-            "notation": "5",
-            "prefLabel": "plooiing (crochon)",
-            "topConceptOf": "conceptscheme:tektoniektype"
-        },
-        {
-            "id": "concept:6",
-            "type": "skos:Concept",
-            "inScheme": "conceptscheme:tektoniektype",
-            "notation": "6",
-            "prefLabel": "splijtingsvlak",
-            "topConceptOf": "conceptscheme:tektoniektype"
-        },
-        {
-            "id": "concept:7",
-            "type": "skos:Concept",
-            "inScheme": "conceptscheme:tektoniektype",
-            "notation": "7",
-            "prefLabel": "fijne zwarte voegen",
-            "topConceptOf": "conceptscheme:tektoniektype"
-        },
-        {
-            "id": "concept:8",
-            "type": "skos:Concept",
-            "inScheme": "conceptscheme:tektoniektype",
-            "notation": "8",
+            "notation": "CA",
+            "note": "Spleten in het gesteente (van diverse oorsprong) die opgevuld zijn met calciet.",
             "prefLabel": "calcietgevulde spleten",
             "topConceptOf": "conceptscheme:tektoniektype"
         },
         {
-            "id": "concept:9",
+            "id": "concept:di",
             "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.tektoniektype.di",
+            "definition": "Een spleet of breuk in het gesteente waarlangs geen of nauwelijkse beweging is opgetreden maar waar het gesteente uit elkaar is bewogen door extensieve spanning.",
             "inScheme": "conceptscheme:tektoniektype",
-            "notation": "9",
+            "notation": "DI",
+            "note": "Een spleet of breuk in het gesteente waarlangs geen of nauwelijkse beweging is opgetreden maar waar het gesteente uit elkaar is bewogen door extensieve spanning.",
+            "prefLabel": "diaklaas",
+            "topConceptOf": "conceptscheme:tektoniektype"
+        },
+        {
+            "id": "concept:gl",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.tektoniektype.gl",
+            "definition": "Een herkenbaar doorlopend vlak in het gesteente, waarlangs een verschuiving is opgetreden.",
+            "inScheme": "conceptscheme:tektoniektype",
+            "notation": "GL",
+            "note": "Een herkenbaar doorlopend vlak in het gesteente, waarlangs een verschuiving is opgetreden.",
+            "prefLabel": "glijvlak / verschuivingsvlak",
+            "topConceptOf": "conceptscheme:tektoniektype"
+        },
+        {
+            "id": "concept:on",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.tektoniektype.on",
+            "definition": "Het tektoniektype werd niet bepaald.",
+            "inScheme": "conceptscheme:tektoniektype",
+            "notation": "ON",
+            "note": "Het tektoniektype werd niet bepaald.",
+            "prefLabel": "onbepaald",
+            "topConceptOf": "conceptscheme:tektoniektype"
+        },
+        {
+            "id": "concept:pl",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.tektoniektype.pl",
+            "definition": "Een plooi in het gesteente die gevormd is aan het contact tussen de gesteentelagen en een verschuivingsvlak, door weerstand bij de beweging van gesteenten langsheen dit vlak.",
+            "inScheme": "conceptscheme:tektoniektype",
+            "notation": "PL",
+            "note": "Een plooi in het gesteente die gevormd is aan het contact tussen de gesteentelagen en een verschuivingsvlak, door weerstand bij de beweging van gesteenten langsheen dit vlak.",
+            "prefLabel": "plooiing (crochon)",
+            "topConceptOf": "conceptscheme:tektoniektype"
+        },
+        {
+            "id": "concept:sp",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.tektoniektype.sp",
+            "definition": "Een vlak in het gesteente gevormd door de oplijning van mineralen loodrecht op de overheersende drukrichting, bv. door diepe begraving (verticale druk) of gebergtevorming (laterale druk).",
+            "inScheme": "conceptscheme:tektoniektype",
+            "notation": "SP",
+            "note": "Een vlak in het gesteente gevormd door de oplijning van mineralen loodrecht op de overheersende drukrichting, bv. door diepe begraving (verticale druk) of gebergtevorming (laterale druk).",
+            "prefLabel": "splijtingsvlak",
+            "topConceptOf": "conceptscheme:tektoniektype"
+        },
+        {
+            "id": "concept:st",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.tektoniektype.st",
+            "definition": "Een onregelmatig vlak in het gesteente gevormd door de oplossing van materiaal loodrecht op de overheersende drukrichting en het achterblijven van onoplosbare mineralen. Vaak gevormd in (goed oplosbare) kalksteen.",
+            "inScheme": "conceptscheme:tektoniektype",
+            "notation": "ST",
+            "note": "Een onregelmatig vlak in het gesteente gevormd door de oplossing van materiaal loodrecht op de overheersende drukrichting en het achterblijven van onoplosbare mineralen. Vaak gevormd in (goed oplosbare) kalksteen.",
             "prefLabel": "stylolieten",
+            "topConceptOf": "conceptscheme:tektoniektype"
+        },
+        {
+            "id": "concept:zv",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.tektoniektype.zv",
+            "definition": "Fijne voegen in het gesteente opgevuld met zwart materiaal.",
+            "inScheme": "conceptscheme:tektoniektype",
+            "notation": "ZV",
+            "note": "Fijne voegen in het gesteente opgevuld met zwart materiaal.",
+            "prefLabel": "fijne zwarte voegen",
             "topConceptOf": "conceptscheme:tektoniektype"
         },
         {
@@ -497,16 +498,15 @@
             "type": "skos:ConceptScheme",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.tektoniektype",
             "hasTopConcept": [
-                "concept:0",
-                "concept:1",
-                "concept:2",
-                "concept:3",
-                "concept:4",
-                "concept:5",
-                "concept:6",
-                "concept:7",
-                "concept:8",
-                "concept:9"
+                "concept:br",
+                "concept:ca",
+                "concept:di",
+                "concept:gl",
+                "concept:on",
+                "concept:pl",
+                "concept:sp",
+                "concept:st",
+                "concept:zv"
             ],
             "prefLabel": "lijst van tektoniektypes"
         }

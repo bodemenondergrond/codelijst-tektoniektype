@@ -1,13 +1,11 @@
-uri,type,dc.identifier,collections,notation,prefLabel,altLabel,broader,broaderTransitive,broadMatch,changeNote,closeMatch,definition,editorialNote,exactMatch,example,hiddenLabel,historyNote,inScheme,mappingRelation,note,related,relatedMatch,scopeNote,semanticRelation,topConceptOf
-conceptscheme:tektoniektype,,be.vlaanderen.bodemenondergrond.data.id.conceptscheme.tektoniektype,,,lijst van tektoniektypes,,,,,,,,,,,,,,,,,,,,
-collectie:tektoniektype,skos:Collection,,,,Collectie van tektoniektype.,,,,,,,,,,,,,conceptscheme:tektoniektype,,,,,,,
-3,skos:Concept,,collectie:tektoniektype,3,breukvlak,,,,,,,,,,,,,conceptscheme:tektoniektype,,,,,,,conceptscheme:tektoniektype
-8,skos:Concept,,collectie:tektoniektype,8,calcietgevulde spleten,,,,,,,,,,,,,conceptscheme:tektoniektype,,,,,,,conceptscheme:tektoniektype
-2,skos:Concept,,collectie:tektoniektype,2,diaklaas,,,,,,,,,,,,,conceptscheme:tektoniektype,,,,,,,conceptscheme:tektoniektype
-4,skos:Concept,,collectie:tektoniektype,4,diaklaasafstand,,,,,,,,,,,,,conceptscheme:tektoniektype,,,,,,,conceptscheme:tektoniektype
-7,skos:Concept,,collectie:tektoniektype,7,fijne zwarte voegen,,,,,,,,,,,,,conceptscheme:tektoniektype,,,,,,,conceptscheme:tektoniektype
-1,skos:Concept,,collectie:tektoniektype,1,glijvlak / verschuivingsvlak,,,,,,,,,,,,,conceptscheme:tektoniektype,,,,,,,conceptscheme:tektoniektype
-0,skos:Concept,,collectie:tektoniektype,0,onbepaald,,,,,,,,,,,,,conceptscheme:tektoniektype,,,,,,,conceptscheme:tektoniektype
-5,skos:Concept,,collectie:tektoniektype,5,plooiing (crochon),,,,,,,,,,,,,conceptscheme:tektoniektype,,,,,,,conceptscheme:tektoniektype
-6,skos:Concept,,collectie:tektoniektype,6,splijtingsvlak,,,,,,,,,,,,,conceptscheme:tektoniektype,,,,,,,conceptscheme:tektoniektype
-9,skos:Concept,,collectie:tektoniektype,9,stylolieten,,,,,,,,,,,,,conceptscheme:tektoniektype,,,,,,,conceptscheme:tektoniektype
+uri,type,dc.identifier,notation,prefLabel,definition,exactMatch,inScheme,topConceptOf
+conceptscheme:tektoniektype,,be.vlaanderen.bodemenondergrond.data.id.conceptscheme.tektoniektype,,lijst van tektoniektypes,,,,
+concept:br,skos:Concept,be.vlaanderen.bodemenondergrond.data.id.concept.tektoniektype.br,BR,breukvlak,"Een herkenbaar doorlopend vlak in het gesteente, waar het gesteente is opgebroken.",,conceptscheme:tektoniektype,conceptscheme:tektoniektype
+concept:ca,skos:Concept,be.vlaanderen.bodemenondergrond.data.id.concept.tektoniektype.ca,CA,calcietgevulde spleten,Spleten in het gesteente (van diverse oorsprong) die opgevuld zijn met calciet.,,conceptscheme:tektoniektype,conceptscheme:tektoniektype
+concept:di,skos:Concept,be.vlaanderen.bodemenondergrond.data.id.concept.tektoniektype.di,DI,diaklaas,Een spleet of breuk in het gesteente waarlangs geen of nauwelijkse beweging is opgetreden maar waar het gesteente uit elkaar is bewogen door extensieve spanning.,,conceptscheme:tektoniektype,conceptscheme:tektoniektype
+concept:zv,skos:Concept,be.vlaanderen.bodemenondergrond.data.id.concept.tektoniektype.zv,ZV,fijne zwarte voegen,Fijne voegen in het gesteente opgevuld met zwart materiaal.,,conceptscheme:tektoniektype,conceptscheme:tektoniektype
+concept:gl,skos:Concept,be.vlaanderen.bodemenondergrond.data.id.concept.tektoniektype.gl,GL,glijvlak / verschuivingsvlak,"Een herkenbaar doorlopend vlak in het gesteente, waarlangs een verschuiving is opgetreden.",,conceptscheme:tektoniektype,conceptscheme:tektoniektype
+concept:on,skos:Concept,be.vlaanderen.bodemenondergrond.data.id.concept.tektoniektype.on,ON,onbepaald,Het tektoniektype werd niet bepaald.,,conceptscheme:tektoniektype,conceptscheme:tektoniektype
+concept:pl,skos:Concept,be.vlaanderen.bodemenondergrond.data.id.concept.tektoniektype.pl,PL,plooiing (crochon),"Een plooi in het gesteente die gevormd is aan het contact tussen de gesteentelagen en een verschuivingsvlak, door weerstand bij de beweging van gesteenten langsheen dit vlak.",,conceptscheme:tektoniektype,conceptscheme:tektoniektype
+concept:sp,skos:Concept,be.vlaanderen.bodemenondergrond.data.id.concept.tektoniektype.sp,SP,splijtingsvlak,"Een vlak in het gesteente gevormd door de oplijning van mineralen loodrecht op de overheersende drukrichting, bv. door diepe begraving (verticale druk) of gebergtevorming (laterale druk).",,conceptscheme:tektoniektype,conceptscheme:tektoniektype
+concept:st,skos:Concept,be.vlaanderen.bodemenondergrond.data.id.concept.tektoniektype.st,ST,stylolieten,Een onregelmatig vlak in het gesteente gevormd door de oplossing van materiaal loodrecht op de overheersende drukrichting en het achterblijven van onoplosbare mineralen. Vaak gevormd in (goed oplosbare) kalksteen.,,conceptscheme:tektoniektype,conceptscheme:tektoniektype

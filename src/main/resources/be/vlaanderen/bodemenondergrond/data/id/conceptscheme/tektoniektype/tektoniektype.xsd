@@ -2,16 +2,15 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:be.vlaanderen.bodemenondergrond.data.id.graph:codelijst-tektoniektype">
   <xs:simpleType name="be.vlaanderen.bodemenondergrond.data.id.conceptscheme.tektoniektype">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/0" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/1" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/2" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/3" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/4" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/5" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/6" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/7" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/8" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/9" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/br" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/ca" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/di" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/gl" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/on" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/pl" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/sp" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/st" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/tektoniektype/zv" />
     </xs:restriction>
   </xs:simpleType>
 </xs:schema>
